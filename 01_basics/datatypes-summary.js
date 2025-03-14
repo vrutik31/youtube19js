@@ -41,7 +41,18 @@ console.log(bignumber)
 
 // array, object, function
 
+const BELIEV = ["onyou","selff","god","yourhardwork"]
 
+let y ={
+    age:34,
+    name:"vrutik",
+}
+
+const z=function(){
+    console.log("JAI SHREE RAM")
+}
+z()
+console.log(BELIEV,y)
 
 
 
