@@ -61,3 +61,30 @@ console.log("******************THATS WHY JS IS DYNAMIC")
 let x = 10;  // x is a number
 x = "Hello"; // x is now a string
 console.log(typeof x)
+
+
+
+//********************************************************************* */
+
+//stack(primitive),Heap(non-primitive)
+let my="vrutik"
+
+let anothermy= my
+ anothermy= "hirpara"
+
+console.log(my)
+
+console.log(anothermy)
+
+
+let user={
+    name:"vrutik",
+    paymentmode:"upi",
+    age:18,
+}
+
+let user1 = user
+
+user1.age = 35
+console.log(user.age)
+console.log(user1.age)
