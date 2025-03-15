@@ -5,7 +5,7 @@ const repo = 50
 
 console.log(`hello my name is ${name} and my repo is ${repo}`)
 
-const gameName = new String("hitesh")
+const gameName = new String("vrutik sjhcjks dsjhfjkn dnjskfb fjbdsjkc")
 
 console.log(gameName[0])
 console.log(gameName.length)
@@ -31,3 +31,6 @@ console.log(newString1.trim())
 const url="https://vrutik.com/hirpara vrutik"
 console.log(url.replace(' ','-'))
 console.log(url.includes("vrutik"))
+
+
+console.log(gameName.split(' '))
