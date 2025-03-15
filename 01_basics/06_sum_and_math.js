@@ -43,3 +43,4 @@ console.log(a)
 console.log(Math.floor(a * (max-min)))
 console.log(Math.floor(a * (max-min+1)))
 console.log(Math.floor(a * (max-min+1))+(min))
+
