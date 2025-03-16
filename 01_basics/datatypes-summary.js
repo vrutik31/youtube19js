@@ -27,16 +27,6 @@ const bignumber=12345678765432123456776543234567
 console.log(bignumber)
 
 
-
-
-
-
-
-
-
-
-
-
 // Refference (non-primitive)
 
 // array, object, function
@@ -54,6 +44,12 @@ const z=function(){
 z()
 console.log(BELIEV,y)
 
+console.log(typeof BELIEV)
+
+console.log(typeof y)
+
+console.log(typeof z)
+
 
 
 
@@ -65,17 +61,25 @@ console.log(typeof x)
 
 
 //********************************************************************* */
+ 
+//stack(primitive) & Heap(non-primitive)
 
-//stack(primitive),Heap(non-primitive)
+//stack(primitive):string,null,undefined,boolean,number,symbol,BigInt
+
 let my="vrutik"
 
-let anothermy= my
+let anothermy= my 
  anothermy= "hirpara"
 
-console.log(my)
+console.log(my)//vrutik
 
-console.log(anothermy)
+console.log(anothermy)//hirpara
 
+
+
+
+
+//Heap(non-primitive) : array,object,function
 
 let user={
     name:"vrutik",
