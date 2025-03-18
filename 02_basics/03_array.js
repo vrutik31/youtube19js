@@ -48,8 +48,11 @@ console.log(JsUser.greet)
 JsUser.greet()//hello js user
 console.log(JsUser.greet())//not a function output:undefined
 
-
-
+JsUser.greet1=function(){
+    console.log(`hello world,${this.name}`)
+}
+console.log(JsUser.greet())
+console.log(JsUser.greet1())
 
 
 
