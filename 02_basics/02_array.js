@@ -26,7 +26,7 @@ const real_another_array=another_array.flat(3)//instead of 3 use also infinity
 console.log(real_another_array)
 
 
-console.log(Array.isArray("vrutik"))
+console.log(Array.isArray([1,2,3]))
 console.log(Array.from({name:"vrutik"}))// aa nahi banavi sake bcz kehna padega ki kisko banana he key or value
 
 
@@ -35,5 +35,10 @@ let score2=200
 let score3=300
 
 console.log(Array.of(score1,score2,score3))
+
+
+
+
+
 
 //isArray,from,of is necessary to  understand
