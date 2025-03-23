@@ -109,3 +109,17 @@ function vr(anyobject){
 }
 vr(user)
 
+//insteD of making object direct pass 
+vr({
+    username:"abshcbjs",
+    prices:299
+})
+
+//NOW SAME APPLY ON ARRAY
+const myArray=[1,2,3,4,5]
+
+function returnValue(vchdsvhcbdsc){
+    return vchdsvhcbdsc[1]
+}
+console.log(returnValue(myArray))
+console.log(returnValue([300,234023,2343,234,1355]))
